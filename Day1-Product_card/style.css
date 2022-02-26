@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Tránh lỗi khi chạy trên các trình duyệt khác nhau */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-image: linear-gradient(to right, #4daf54, #3d8880);
+    overflow: hidden;
+}
+
+.card{
+    margin: 120px auto;
+    width: 320px;
+    height: 400px;
+    background-color: #272d40;
+	border-radius: 15px;
+	padding: 14px 20px;
+	color: white;
+	position: relative;
+}
+
+.like, .cart{
+    font-size: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+.cart{
+    right: 20px;
+}
+
+.card_img{
+    width: 90%;
+    transition: 0.5s;
+}
+img{
+    width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.card:hover .card_img{
+    transform: translateY(-90px) rotate(-20deg);
+}
+
+.card_title{
+    font-size: 27px;
+    color: #4daf54;
+    text-align: center;
+    transition: 0.5s;
+}
+.card:hover .card_title{
+    transform: translate(-31px, -72px);
+}
+
+.card_price{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+.card:hover .card_price{
+    transform: translate(-116px, -72px);
+}
+
+.card_size, .card_color, .card_action{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card:hover .card_size,
+.card:hover .card_color,
+.card:hover .card_action{
+    transition-delay: 0.25s;
+    opacity: 1;
+    visibility: visible;
+}
+
+.card_size{
+    margin-top: 100px;
+}
+.card:hover .card_size{
+    margin-top: -10px;
+}
+
+.card_size,
+.card_color {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.card_size h3,
+.card_color h3 {
+	font-weight: unset;
+	margin-right: 12px;
+    font-size: 20px;
+}
+
+.card_size span{
+    background-color: #dadada;
+    color: #272d40;
+    margin: 0 4px;
+    padding: 2px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card_color span{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.card_color span.green{
+    background-color: green;
+}
+.card_color span.red{
+    background-color: red;
+}
+.card_color span.black{
+    background-color: black;
+}
+
+.card_action button{
+    background-color: #4daf54;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    margin: 8px 16px 0px 0pc;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card_action button:hover{
+    transform: scale(0.86);
+}
