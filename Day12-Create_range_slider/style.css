@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.range h1{
+    font-size: 30px;
+    margin: 250px 0 50px 0;
+}
+
+.range_bar{
+    width: 600px;
+    height: 50px;
+    border: 1px solid #aaa;
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.range_bar span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 10px;
+    background: linear-gradient(to right, #bb69cc, #246bac);
+    color: white;
+    font-size: 24px;
+}
