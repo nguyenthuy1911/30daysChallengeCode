@@ -1,6 +1,6 @@
 # 30daysChallengeCode
 30 days challenge html, css, js       
-(About challenge](https://www.nodemy.vn/projects-html-css-js)
+[About challenge](https://www.nodemy.vn/projects-html-css-js)
 
 Day 1: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day1-Product_card/index.html)    
 Day 2: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day2-Profile_card/index.html)    

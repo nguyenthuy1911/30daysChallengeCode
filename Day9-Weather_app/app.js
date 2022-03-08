@@ -23,7 +23,7 @@ async function changWeatherUi(capitalSearch){
         wind.innerText = data.wind.speed + '(m/s)'
         sun.innerText = data.main.humidity + '(%)'
         let temp = Math.round(data.main.temp -273)
-        value.innerText = temp
+        value.innerHTML = `${temp}<sup>o</sup>C`
         shortDesc.innerText = data.weather[0] ? data.weather[0].main : ''
         time.innerText = new Date().toLocaleString('vi')
 
