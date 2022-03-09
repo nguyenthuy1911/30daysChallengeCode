@@ -13,4 +13,6 @@ Day 8: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day8-Register
 Day 9: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day9-Weather_app/index.html)           
 Day 10: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day10-Todo_list/index.html)                   
 Day 11: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day11-Toast_notification/index.html)  
-Day 12: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day12-Create_range_slider/index.html)      
+Day 12: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day12-Create_range_slider/index.html)  
+Day 13: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day13-Preview_image/index.html)         
+Day 14: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day14-Slideshow/index.html)         
