@@ -15,4 +15,7 @@ Day 10: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day10-Todo_l
 Day 11: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day11-Toast_notification/index.html)  
 Day 12: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day12-Create_range_slider/index.html)  
 Day 13: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day13-Preview_image/index.html)         
-Day 14: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day14-Slideshow/index.html)         
+Day 14: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day14-Slideshow/index.html)        
+Day 15: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day15-Live_product_filter/index.html)       
+Day 16: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day16-Show_on_scroll/index.html)    
+Day 17: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day17-Counter_up/index.html)    

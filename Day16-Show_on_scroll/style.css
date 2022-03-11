@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.full_height{
+    width: 100vw;
+    height: 100vh;
+}
+
+#home{
+    background: linear-gradient(to right, #4daf54, #3d8880);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 100px;
+}
+.main { 
+    transform: translateY(-20%);
+}
+.main h1{
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+.main p{
+    width: 800px;
+    font-size: 20px;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 500px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.box h2{
+    padding-bottom: 10px;
+}
+
+#team{
+    background: linear-gradient(180deg, #017c2c 50%, #fff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person{
+    width: 200px;
+    background-color: white;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px #2e363a;
+}
+.person h3{
+    color: #017c2c;
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+
+.leftToRight{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+.leftToRight.start{
+    transform: translateX(0%);
+    transition: 1s;
+}
+
+.rightToLeft{
+    transform: translateX(200%);
+    transition: 1s;
+}
+.rightToLeft.start{
+    transform: translateX(0%);
+    transition: 1s;
+}
+
+.zoom{
+    transform: scale(0);
+    transition: 1s;   
+}
+.zoom.start{
+    transform: scale(1);
+    transition: 1s;   
+}

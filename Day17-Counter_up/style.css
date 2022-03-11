@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+}
+
+.count{
+    transform: translateY(-50%);
+    background-color: rgb(8, 20, 92);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #aaa;
+    text-align: center;
+    margin: 20px;
+}
+.count h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.number{
+    font-size: 56px;
+}
