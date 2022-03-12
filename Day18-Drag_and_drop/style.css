@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( 130deg, rgb(211, 252, 31), rgb(253, 95, 22));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 4px;
+    margin: 20px;
+}
+.target{
+    background-image: url(01BK.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.dragging{
+    border: 4px solid rgb(253, 116, 4);
+}
