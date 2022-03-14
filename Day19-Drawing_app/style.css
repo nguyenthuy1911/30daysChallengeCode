@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.tools{
+    height: 60px;
+    background-color: rgb(146, 221, 26);
+    display: flex;
+    align-items: center;
+}
+.tools >*{
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    margin: 10px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;;
+}
+
+#save{
+    margin-left: auto;
+}
+
+#canvas{
+    border: 1px solid burlywood;
+    display: flex;
+    margin: auto;
+}
