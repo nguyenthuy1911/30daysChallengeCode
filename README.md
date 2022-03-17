@@ -24,3 +24,4 @@ Day 19: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day19-Drawin
 Day 20: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day20-Typing_animation_effect/index.html)     
 Day 21: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day21-Dark_and_light_mode/index.html)    
 Day 22: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day22-Filter_elements/index.html)   
+Day 23: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day23-Zoom_image/index.html)   
