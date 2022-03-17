@@ -1,0 +1,78 @@
+:root{
+    --primary-color: #0f9d58;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1200px;
+    background-color: rgb(210, 233, 226);
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.food_menu{
+    margin: 30px auto;
+}
+.food_menu button{
+    padding: 10px 40px;
+    margin: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--primary-color);
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.food_menu button:hover,
+.food_menu button.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.food_list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.food_item{
+    margin: 10px;
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(2) rotate(90deg);
+}
+
+.hide{
+    display: none;
+}

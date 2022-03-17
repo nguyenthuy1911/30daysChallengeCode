@@ -22,4 +22,5 @@ Day 17: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day17-Counte
 Day 18: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day18-Drag_and_drop/index.html)     
 Day 19: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day19-Drawing_app/index.html)     
 Day 20: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day20-Typing_animation_effect/index.html)     
-Day 21: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day21-Dark_and_light_mode/index.html)     
+Day 21: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day21-Dark_and_light_mode/index.html)    
+Day 22: [Demo](https://nguyenthuy1911.github.io/30daysChallengeCode/Day22-Filter_elements/index.html)   
