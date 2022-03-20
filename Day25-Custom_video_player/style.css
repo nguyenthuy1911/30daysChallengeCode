@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(145deg, rgb(202, 241, 128), rgb(203, 223, 94));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player{
+    width: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.player_video{
+    width: 100%;
+}
+
+.player_controls{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
+    transform: translateY(100%);
+    transition: 0.25s;
+}
+
+.player:hover .player_controls{
+    transform: unset;
+}
+
+.player_controls > *{
+    margin: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.toggle{
+    font-size: 28px;
+}
+
+.player_progress{
+    background-color: white;
+    height: 10px;
+    flex: 1;
+    position: relative;
+}
+
+.player_progress_filled{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(9, 209, 35);
+}
+
+.player_button{
+    cursor: pointer;
+}
+.player_button:hover{
+    color: rgb(9, 209, 35);
+}
