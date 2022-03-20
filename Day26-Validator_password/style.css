@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(145deg, #569377 50%, #dbede5 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: stretch;
+} 
+
+input, button{
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 10px;
+}
+.form_input{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0 20px; 
+}
+.form_input input{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear
+{
+    display: none;
+}
+
+form button{
+    padding: 10px 20px;
+    background-color: #48735f;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.form_eye::before{
+    content: '\f070';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    display: inline-block;
+    cursor: pointer;
+}
+.form_eye.show::before {
+	content: '\f06e';
+}
+
+.validator{
+    background-color: #48735f;
+    border-radius: 10px;
+    box-sizing: 0 0 10px rgba(0,0,0,0.5);
+    color: white;
+    font-size: 18px;
+}
+.validator p{
+    padding: 10px 20px;
+}
+
+.validator p::before{
+    font-family: 'Font Awesome 6 Free';
+    content: '\f00d';
+    font-weight: 900;
+    width: 30px;
+    display: inline-block;
+    font-size: 20px;
+}
+.validator p.valid{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.validator p.valid::before{
+    content: '\f00c';
+}
