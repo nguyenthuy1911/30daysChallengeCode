@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(145deg, #413579, #632a4c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    user-select: none;
+    height: 280px;
+    width: 80%;
+    overflow-x: auto;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+.box{
+    margin: 20px;
+    padding: 80px;
+    font-size: 60px;
+    color: white;
+    background-color: rgb(110, 47, 153);
+}

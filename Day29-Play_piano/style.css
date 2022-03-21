@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #e74d89, #febaa6);
+    text-align: center;
+}
+
+.wrapper h2{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+.wrapper button{
+    padding: 15px 30px;
+    margin: 10px;
+    color: white;
+    font-size: 26px;
+    background-color: #f31a6d;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}

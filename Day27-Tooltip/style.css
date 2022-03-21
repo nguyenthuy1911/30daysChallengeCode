@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root {
+	--facebook-color: #3b5999;
+	--instagram-color: #e1306c;
+	--youtube-color: #de463b;
+	--twitter-color: #46c1f6;
+	--github-color: #333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.icon{
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.icon i{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.icon .tooltip{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    pointer-events: none;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.icon .tooltip::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    height: 15px;
+    width: 15px;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.icon:hover .tooltip{
+    opacity: 1;
+    top: -70px;
+}
+.icon:hover i{
+    color: white;
+}
+
+.icon.facebook i:hover, .facebook .tooltip, .facebook .tooltip::before{
+    background-color: var(--facebook-color);
+}
+
+.icon.github i:hover, .github .tooltip, .github .tooltip::before{
+    background-color: var(--github-color);
+}
+
+.icon.twitter i:hover, .twitter .tooltip, .twitter .tooltip::before{
+    background-color: var(--twitter-color);
+}
+
+.icon.instagram i:hover, .instagram .tooltip, .instagram .tooltip::before{
+    background-color: var(--instagram-color);
+}
+
+.icon.youtube i:hover, .youtube .tooltip, .youtube .tooltip::before{
+    background-color: var(--youtube-color);
+}
